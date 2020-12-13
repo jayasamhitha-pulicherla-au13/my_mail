@@ -1,0 +1,139 @@
+body{ background-color: #99c2ff;
+background-image: url(pic3.jpg);
+background-size: cover;
+background-position: center;
+ } 
+	/*MailHead*/
+
+ #Mailbox{ 
+ 	
+  	height: 600px;
+	margin: 10px; 
+	border-radius: 10px;
+	border-color: red;
+	font-size: 20px;
+}
+
+#title{
+	height: 20px;
+	padding: 20px 0 0 50px;
+	font-weight: bold;
+	font-size: 30px;
+	border-radius: 10px;
+	width: 200px;
+
+}
+
+#nav{
+	display: flex;
+}
+#sr{
+	height: 30px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-style: none;
+    outline: none;
+    padding-left: 10px;
+	
+}
+#sr:hover{
+	color: green;
+	background-color: #FCE4EC;
+	transform: scale(1.1,1.1);
+}
+.name{
+	color: #c6ff1a;
+	text-decoration: none;
+}
+.fa {
+	margin-top: 10px;
+    margin-left: 400px;
+}
+
+/*Navigation of mails*/
+
+#comp{
+	padding-bottom: 10px;
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 20px;
+    outline: none;
+    background-color: white;
+    color: green;
+    margin-left: -10px;
+}
+
+
+#navmail{
+	margin: 30px;   
+}
+
+#navmail li{
+	list-style-type: none;
+	
+}
+li#comp:hover{
+	transform: scale(1.1,1.1);
+	transition-duration: 400ms;
+}
+/* navmail li:hover{
+	background-color: ;
+} */
+#navmail li a{
+	text-decoration: none;
+	color: #b3cccc;
+
+}
+#navmail li a:hover{
+	
+	border-radius: 10px;
+	filter:  grayscale(100%) brightness(51%);
+
+}
+.ul{
+	margin-top: 5px;
+	font-size: larger;
+	width: 100px;
+}
+.flex{
+	display: flex;
+}
+	/*Mail box*/
+
+#Mails{
+	width: 100%;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+table{
+	width: 100%;
+}
+.tr{
+	background-color: #d1d5d87a;
+}
+table, td, th {
+	border : 1px solid black;
+	border-collapse: collapse;
+}
+td,th{
+	padding: 20px;
+	font-weight: bold;
+	color: #0c0c07;
+	background-color: #8fb6d840;
+	text-align: center;
+}
+th{
+	color: #1b0952;
+}
+		/*Ads*/
+
+.ad{
+	height: 100px;
+    width: 700px;
+    margin-left: 300px;
+    margin-top: 25px;
+}
